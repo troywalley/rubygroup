@@ -2,7 +2,18 @@ body {
   background-image: url("../greece.jpg");
   background-size: 100% 100%; }
 
+.nav-bar-container {
+  background-color: #ebe8dc;
+  height: 100px;
+  opacity: .9;
+  width: 90%;
+  margin: 0 auto; }
+
+* {
+  box-sizing: border-box; }
+
 body {
-  background-color: teal; }
+  background-color: teal;
+  margin: 0 0 0 0; }
 
 /*# sourceMappingURL=style.css.map */

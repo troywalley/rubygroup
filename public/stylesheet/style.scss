@@ -2,7 +2,11 @@
 @import 'contact.scss';
 @import 'gallery.scss';
 @import 'index.scss';
-
+@import 'nav.scss';
+*{
+	box-sizing:border-box;
+}
 body{
 	background-color:teal;
+	margin:0 0 0 0;
 }
