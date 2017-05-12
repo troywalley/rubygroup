@@ -1,6 +1,14 @@
 body{
-	background-image:url("../stylesheet/greece.jpg");
+	// background-image:url("../stylesheet/greece.jpg");
+	background-color:rgba(235,232,220,.8);
 	background-size:100% 100%;
+}
+.background{
+background-image:url("../stylesheet/greece.jpg");	
+background-size:100% 100%;	
+position:relative;
+height:100%;
+width:100%
 }
 .yield{
 	padding:1px;
