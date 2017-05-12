@@ -16,12 +16,17 @@ position:fixed;
 	display:flex;
 	justify-content:space-around;
 }
- .menu-list{
- 	display:inline-block;
+ .menu-list a{
+ 	// display:inline-block;
 	text-decoration:none;
+	list-style-type: none;
+	opacity:1;
  }
  .menu-container{
+ 	opacity:1;
+ 	list-style-type: none;
  	display:flex;
+ 	// text-decoration:none;
 	justify-content:space-around;
 	width:100%
  }
