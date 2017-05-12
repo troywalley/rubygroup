@@ -3,27 +3,36 @@
 	display:flex;
 	justify-content:space-around;
 	
-	background-color:#ebe8dc;
-	height:100px;
+	// background-color:rgba(235,232,220,.55);
+	height:70px;
 	width:60%;
 	
 }
 .flex-nav-bar{
 position:fixed;
-	top:33%;
-	opacity:.55;
+	
+	background-color:rgba(235,232,220,.8);
 	width:100%;
 	display:flex;
 	justify-content:space-around;
+}
+.menu-list{
+	font-size:22px;
+	margin-top:5px;
+
 }
  .menu-list a{
  	// display:inline-block;
 	text-decoration:none;
 	list-style-type: none;
 	opacity:1;
+	color:#04048f;
+	font-family: 'Playball', cursive;
+
  }
  .menu-container{
  	opacity:1;
+
  	list-style-type: none;
  	display:flex;
  	// text-decoration:none;
