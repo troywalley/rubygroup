@@ -6,7 +6,7 @@ var close = document.getElementById("close");
 setTimeout(function(){
 	modal.style.display = 'inline-flex'; 
 	blur.classList.add("blur");
-}, 1000);
+}, 500);
 
 	close.addEventListener("click", function(){
 	blur.classList.add("fadeoutBlur");
