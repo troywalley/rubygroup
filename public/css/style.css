@@ -1,4 +1,8 @@
 body {
+  background-image: url("../greece.jpg");
+  background-size: 100% 100%; }
+
+body {
   background-color: teal; }
 
 /*# sourceMappingURL=style.css.map */
