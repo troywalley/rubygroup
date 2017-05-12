@@ -1,6 +1,7 @@
 require 'sinatra'
 
 get '/' do
+@home=true
 erb :index
 end
 get '/about' do

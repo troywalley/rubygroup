@@ -1,15 +1,19 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 <!-- #ebe8dc -->
+<%if @home %>
+<div class="flex-nav-bar">
+<div class="nav-bar-container">
+	<ul class="menu-container">
 
-<div class="nav-bar-container"></div>
-<ul>
 
-
-	<li><a href="/">Home</a></li>
-	<li><a href="/gallery">Gallery</a></li>
-	<li><a href="/about">About</a></li>
-	<li><a href="/contact">Contact</a></li>
+	<li class="menu-list"><a href="/">Home</a></li>
+	<li class="menu-list"><a href="/gallery">Gallery</a></li>
+	<li class="menu-list"><a href="/about">About</a></li>
+	<li class="menu-list"><a href="/contact">Contact</a></li>
 </ul>
+</div>
+</div>
 
+<%end%>
 
 <div><%=yield%></div>

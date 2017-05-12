@@ -40,11 +40,28 @@ body {
   background-size: 100% 100%; }
 
 .nav-bar-container {
+  display: flex;
+  justify-content: space-around;
   background-color: #ebe8dc;
   height: 100px;
-  opacity: .9;
-  width: 90%;
-  margin: 0 auto; }
+  width: 60%; }
+
+.flex-nav-bar {
+  position: fixed;
+  top: 33%;
+  opacity: .55;
+  width: 100%;
+  display: flex;
+  justify-content: space-around; }
+
+.menu-list {
+  display: inline-block;
+  text-decoration: none; }
+
+.menu-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; }
 
 * {
   box-sizing: border-box; }
