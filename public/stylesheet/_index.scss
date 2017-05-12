@@ -1,4 +1,42 @@
+
 // body{
 // 	background-image:url("../stylesheet/greece.jpg");
 // 	background-size:100% 100%;
 // }
+
+// body{
+// 	background-image:url("../stylesheet/greece.jpg");
+// 	background-size:100% 100%;
+// }
+.yield{
+	padding:1px;
+}
+.multipleflex{
+	display:flex;
+	justify-content:center;
+}
+.homepage-header{
+	padding:1px;
+	// border:2px solid black;
+	background-color:rgba(235,232,220,.3);
+margin:0 auto;
+
+font-size:80px;
+color:#04048f;
+font-family: 'Playball', cursive;
+}
+.homepage-header-container{
+position:absolute;
+top:275px;
+display:flex;
+justify-content:center;
+width:100%
+}
+.homepage-header-description{
+	font-size:35px;
+	margin-top:10px;
+color:rgb(235,232,220);
+background-color:rgba(4,4,143,.3);
+font-family: 'Playball', cursive;
+}
+
