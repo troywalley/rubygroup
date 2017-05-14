@@ -1,16 +1,35 @@
+@import 'variables';
 @import 'about.scss';
 @import 'contact.scss';
 @import 'gallery.scss';
 @import 'index.scss';
 
+
+
+
+
 // body{
 // 	background-color:teal;
 // }
+
+
+
+
 @import 'nav.scss';
+
 *{
 	box-sizing:border-box;
 }
 body{
-	background-color:teal;
+
+	// background-color:teal;
 	margin:0 0 0 0;
 }
+
+
+
+	background-color: $header-bg-color;
+	margin:0 0 0 0;
+}
+
+
