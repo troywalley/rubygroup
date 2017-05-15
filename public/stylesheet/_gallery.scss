@@ -1,0 +1,44 @@
+.carousel-container{
+	display: flex;
+	justify-content:center;
+	width:100%;
+	margin-top: 100px;
+}
+.arrow-left{
+	width:75px;
+	height:75px;
+	
+
+	
+}
+.arrow-right{
+	width:75px;
+	height:75px;
+	
+	
+}
+.left{
+	width:100%;
+	height:75px;
+	background-image:url("/arrowleft.png");
+	background-size:cover;
+	margin-top:205px;
+	background-color:white;
+}
+.right{
+	width:100%;
+	height:75px;
+	background-image:url("/arrowright.png");
+	background-size:100% 100%;
+	margin-top:205px;
+	background-color:white;
+}
+.photo-container{
+	width:60%;
+	height:600px;
+	background-color:$header-bg-color;
+	background-image:url("/baclava.jpg");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:center center;
+}
