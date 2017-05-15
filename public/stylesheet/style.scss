@@ -8,12 +8,21 @@
 
 
 
+
 // body{
 // 	background-color:teal;
 // }
 
 
 
+
+
+@import 'variables.scss';
+@import 'contact.scss';
+@import 'index.scss';
+@import 'about.scss';
+@import 'gallery.scss';
+@import 'gallery-background.scss';
 
 @import 'nav.scss';
 
@@ -23,8 +32,12 @@
 body{
 
 	// background-color:teal;
+
 // 	margin:0 0 0 0;
 // }
+
+	margin:0 0 0 0;
+
 
 
 
