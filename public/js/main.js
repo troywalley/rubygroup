@@ -1,3 +1,4 @@
+
 function dotSaver(){
 this.dot=[];
 this.menuList=[];
@@ -91,6 +92,7 @@ if(pics.currentpic===pics.picArray.length-1){
 
 
 
+
 var modal = document.getElementById("modal");
 var blur = document.getElementById("shadow");
 var close = document.getElementById("close");
@@ -100,15 +102,15 @@ setTimeout(function(){
 	blur.classList.add("blur");
 }, 500);
 
-	close.addEventListener("click", function(){
-	blur.classList.add("fadeoutBlur");
-	blur.classList.remove("blur");
-	modal.classList.add("fadeout");
+// 	close.addEventListener("click", function(){
+// 	blur.classList.add("fadeoutBlur");
+// 	blur.classList.remove("blur");
+// 	modal.classList.add("fadeout");
 	
-	setTimeout(function(){
-		modal.style.display = 'none'; 
-	}, 1250);
-});
+// 	setTimeout(function(){
+// 		modal.style.display = 'none'; 
+// 	}, 1250);
+// });
 
 window.addEventListener("keyup", listenKey);
 function listenKey(e) {
@@ -131,7 +133,8 @@ function listenKey(e) {
 }
 
 
-	
+
+
 
 
 
