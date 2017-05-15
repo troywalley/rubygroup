@@ -5,7 +5,7 @@
         height: 100%;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url("../greece.jpg");
+        background-image: url("/img/greece.jpg");
     }
 body{
 	// background-image:url("../stylesheet/greece.jpg");
@@ -13,7 +13,7 @@ body{
 	background-size:100% 100%;
 }
 .background{
-background-image:url("../stylesheet/greece.jpg");	
+background-image:url("/img/greece.jpg");	
 background-size:100% 100%;	
 position:relative;
 height:100%;

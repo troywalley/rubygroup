@@ -20,7 +20,7 @@
 .left{
 	width:100%;
 	height:75px;
-	background-image:url("/arrowleft.png");
+	background-image:url("/img/arrowleft.png");
 	background-size:cover;
 	margin-top:205px;
 	background-color:$header-bg-color;
@@ -28,7 +28,7 @@
 .right{
 	width:100%;
 	height:75px;
-	background-image:url("/arrowright.png");
+	background-image:url("/img/arrowright.png");
 	background-size:100% 100%;
 	margin-top:205px;
 	background-color:$header-bg-color;
@@ -37,7 +37,7 @@
 	width:60%;
 	height:600px;
 	background-color:$header-bg-color;
-	background-image:url("/baclava.jpg");
+	background-image:url("/img/baclava.jpg");
 	background-size:contain;
 	background-repeat: no-repeat;
 	background-position:center center;
