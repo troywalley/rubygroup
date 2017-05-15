@@ -55,7 +55,7 @@ function carousels(){
 	var me=this;
 	function startTime(){
 		setTimeout(function(){
-			carousel.style.backgroundImage="url('"+me.picArray[me.currentpic]+"')"
+			carousel.style.backgroundImage="url('img/"+me.picArray[me.currentpic]+"')"
 			me.time=0;
 			if(me.currentpic===me.picArray.length-1){
 				me.currentpic=0;
