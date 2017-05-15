@@ -19,10 +19,19 @@ position:fixed;
 .menu-list{
 	font-size:22px;
 	margin-top:5px;
+	width:200px;
 
 }
+.dot{
+	border-radius:50%;
+	height:10px;
+	width:10px;
+	background-color:#04048f;
+	display:none;
+}
  .menu-list a{
- 	// display:inline-block;
+
+ 	display:inline-block;
 	text-decoration:none;
 	list-style-type: none;
 	opacity:1;
@@ -30,6 +39,9 @@ position:fixed;
 	font-family: 'Playball', cursive;
 
  }
+.visible{
+	display:inline-block;
+}
  .menu-container{
  	opacity:1;
 
