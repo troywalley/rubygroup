@@ -3,53 +3,19 @@
 @import 'contact.scss';
 @import 'gallery.scss';
 @import 'index.scss';
-
-
-
-
-
-
-// body{
-// 	background-color:teal;
-// }
-
-
-
-
-
 @import 'variables.scss';
 @import 'contact.scss';
 @import 'index.scss';
 @import 'about.scss';
 @import 'gallery.scss';
-<<<<<<< HEAD
-@import 'gallery-background.scss';
-
-=======
 @import 'contact-background.scss';
->>>>>>> sam
 @import 'nav.scss';
 @import 'thank-you.scss';
-
-
 
 *{
 	box-sizing:border-box;
 }
 body{
-
-	// background-color:teal;
-
-// 	margin:0 0 0 0;
-// }
-
-	margin:0 0 0 0;
-
-
-
-
 	background-color: $header-bg-color;
 	margin:0 0 0 0;
 }
-
-
