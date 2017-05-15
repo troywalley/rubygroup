@@ -77,7 +77,7 @@ if(pics.currentpic===0){
 	}else{
 		pics.currentpic-=1;
 	}
-	carousel.style.backgroundImage="url('"+pics.picArray[pics.currentpic]+"')"
+	carousel.style.backgroundImage="url('img/"+pics.picArray[pics.currentpic]+"')"
 }
 function photoForward(){
 pics.time=0;
@@ -86,7 +86,7 @@ if(pics.currentpic===pics.picArray.length-1){
 	}else{
 		pics.currentpic+=1;
 	}
-	carousel.style.backgroundImage="url('"+pics.picArray[pics.currentpic]+"')"
+	carousel.style.backgroundImage="url('img/"+pics.picArray[pics.currentpic]+"')"
 }
 
 
